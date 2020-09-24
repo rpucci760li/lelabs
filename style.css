@@ -1,3 +1,51 @@
+@font-face {
+	font-family: 'rubik';
+	src: 	url('LeLabs/lelabs/Rubik-Black.ttf')
+			url('LeLabs/lelabs/Rubik-BlackItalic.ttf')
+			url('LeLabs/lelabs/Rubik-Bold.ttf')
+			url('LeLabs/lelabs/Rubik-BoldItalic.ttf')
+			url('LeLabs/lelabs/Rubik-Italic.ttf')
+			url('LeLabs/lelabs/Rubik-Light.ttf')
+			url('LeLabs/lelabs/Rubik-LightItalic.ttf')
+			url('LeLabs/lelabs/Rubik-Medium.ttf')
+			url('LeLabs/lelabs/Rubik-MediumItalic.ttf')
+			url('LeLabs/lelabs/Rubik-Regular.ttf');
+}
 
+.tete{
 
-/*# sourceMappingURL=style.css.map */
+	width: 100%;
+	height: 200px;
+	background-color: black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.logo{
+
+	width: 25%;
+	height: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.fa-flask{
+
+	color: yellow;
+	font-size: 50px;
+
+}
+
+.titre_logo{
+
+	color: yellow;
+	font-size: 50px;
+	font-family: 'rubik';
+
+}
