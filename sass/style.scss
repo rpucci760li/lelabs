@@ -1,0 +1,134 @@
+
+@import './utils/functions';
+@import './utils/mixins';
+@import './base/fonts';
+@import './base/colors';
+
+*{
+    box-sizing: border-box;
+}
+
+// Body
+
+.body{
+	width: 100%;
+    margin: auto;
+    background-color: $color-background;
+}
+
+/*Header*/
+
+.tete{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	@include color;
+}
+/*Header: Bandeau*/
+.bandeau_menu{
+	width: 15%;
+    height: rem(215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+/*Header: Logo*/
+.fa-mountain, .fa-hiking{
+    width: 100px;
+    height: 100px;
+    color: $color-n;
+    @include shadow;
+}
+
+.fa-mountain{    
+    @include rotate(45deg);
+    @include shadow;
+    font-size: rem(100);
+}
+
+.fa-hiking{
+     @include rotate(-15deg);
+     font-size: 60px;
+     margin-bottom: -70px;
+}
+
+.block_logo{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+	color: $color-n;
+    margin: 0;
+}
+
+.titre{
+    font-size: rem(90);
+    color: $color-logo;
+    font-family: 'raph_lanok_futureregular';
+    letter-spacing: rem(12);
+    @include shadow;
+}
+
+.slogan{
+    font-family: 'rubiklight';
+    font-size: rem(25);
+    @include shadow;
+}
+
+/*Header: Menu*/
+
+.nav{
+    width: 40%;
+}
+.nav_link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nlink{
+    font-family: 'rubiklight';
+    list-style: none;
+    text-decoration: none;
+    font-size: rem(25);
+    color: $color-n;
+    @include shadow;
+}
+
+
+
+/*Corps*/
+
+.intro{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background-color: blue;
+}
+
+// Corps: enc_one
+
+.enc_one{
+    width: 80%;
+    height: rem(250);
+    display: flex;
+    background-color: white;
+}
+
+img{
+    width: 40%;
+    height: 90%;
+}
+
+.tit_enc_one{
+    // Test du maps dans une variables 
+    font-size: map-get($font-size, h2);
+    @include txt-input-palette (focus);
+}
+

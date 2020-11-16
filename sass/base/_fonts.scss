@@ -1,0 +1,102 @@
+
+// Polices
+@font-face {
+    font-family: 'raph_lanok_futureregular';
+    src: url('fonts/raph_lanok/raphlanokfuture.woff2') format('woff2'),
+         url('fonts/raph_lanok/raphlanokfuture.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikblack';
+    src: url('fonts/rubik/rubik-black.woff2') format('woff2'),
+         url('fonts/rubik/rubik-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikblack_italic';
+    src: url('fonts/rubik/rubik-blackitalic.woff2') format('woff2'),
+         url('fonts/rubik/rubik-blackitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikbold';
+    src: url('fonts/rubik/rubik-bold.woff2') format('woff2'),
+         url('rubik-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikbold_italic';
+    src: url('fonts/rubik/rubik-bolditalic.woff2') format('woff2'),
+         url('fonts/rubik/rubik-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikitalic';
+    src: url('fonts/rubik/rubik-italic.woff2') format('woff2'),
+         url('fonts/rubik/rubik-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubiklight';
+    src: url('fonts/rubik/rubik-light.woff2') format('woff2'),
+         url('rubik-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubiklight_italic';
+    src: url('fonts/rubik/rubik-lightitalic.woff2') format('woff2'),
+         url('fonts/rubik/rubik-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikmedium';
+    src: url('fonts/rubik/rubik-medium.woff2') format('woff2'),
+         url('fonts/rubik/rubik-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikmedium_italic';
+    src: url('fonts/rubik/rubik-mediumitalic.woff2') format('woff2'),
+         url('fonts/rubik/rubik-mediumitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikregular';
+    src: url('fonts/rubik/rubik-regular.woff2') format('woff2'),
+         url('fonts/rubik/rubik-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Variables 
+$font-size: (h1: 10rem, h2: 6rem, p: 2rem);

@@ -1,0 +1,28 @@
+
+// Couleurs
+$color-n: #ffffff;
+$color-background: rgb(209, 207, 207);
+$color-head: rgba(97, 92, 74, 0.781);
+$color-logo: rgba(129, 236, 129, 0.945);
+$color-primary: red;
+$color-secondary: blue;
+$color-thirdy: yellow;
+
+$txt-input-palette: (
+
+    active: (
+        bg: $color-primary,
+        border: $color-secondary,
+        txt: $color-thirdy,
+    ),
+    focus: (
+        bg: $color-primary,
+        border: $color-secondary,
+        txt: $color-thirdy,
+    ),
+    invalid: (
+        bg: $color-primary,
+        border: $color-secondary,
+        txt: $color-thirdy,
+    )
+);

@@ -1,0 +1,48 @@
+
+// Mixins
+@mixin rotate ($rotation: 10deg) {
+    @include transform (rotate($rotation));
+}
+
+@mixin transform ($transform) {
+    -ms-transform: $transform;
+    -webkit-transform: $transform;
+    transform: $transform;
+    -o-transform: $transform;
+    -moz-transform: $transform;
+}
+
+@mixin triangle ($color:red, $size:10px) {
+
+    &::after{
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: $size solid $color;
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        position: absolute;
+        bottom: $size * -1;
+    }
+}
+
+@mixin shadow ($size:1px, $color:black) {
+    text-shadow: $size $size $color;   
+}
+
+@mixin color {
+
+    @if (lightness($color-logo)>25%) {
+        background-color: adjust-hue($color: $color-head, $degrees: 120);
+    }@else{
+        background-color: adjust-hue($color: $color-head, $degrees: 280);
+    }
+    
+}
+
+@mixin txt-input-palette ($state) {
+    $spalette: map-get($txt-input-palette, $state);
+    border: .1rem solid map-get ($palette, border);
+    background-color: map-get ($palette, bg);
+    color: map-get ($palette, txt);
+}
